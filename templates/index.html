@@ -1,67 +1,27 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Resume App</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-</head>
-<body>
- <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact">Contact</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>Resume App</h1>
-            </div>
-        </div>
-        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, atque commodi dicta est, expedita fugiat laudantium minus molestias mollitia nobis omnis porro quibusdam repudiandae saepe sed soluta sunt. Ullam, veniam.</span><span>Asperiores consequuntur cupiditate ea eos est facere odit perferendis quaerat rerum tenetur. A accusamus architecto delectus, ea earum et fuga inventore modi perspiciatis provident quibusdam, repellat sapiente soluta tenetur unde.</span><span>Fuga, magnam, repellendus. Aspernatur corporis cupiditate delectus deserunt doloremque, earum esse, excepturi exercitationem magni nulla optio placeat quae sit ut veritatis. Consectetur doloremque ducimus expedita ipsa itaque iusto quos totam!</span><span>Cum cumque deserunt hic incidunt laboriosam libero quisquam recusandae tempora. Dolores eum exercitationem facere ipsum obcaecati provident quam quasi sequi similique ut! Deserunt dolorem facilis magnam maiores neque similique veniam!</span><span>A consequatur labore molestiae omnis quaerat repellat vero! A architecto doloribus eos, explicabo fuga, harum iure iusto nesciunt nisi officia praesentium quidem repellat rerum sed sit ullam vel. Corporis, molestiae.</span><span>Aliquid, autem, itaque. Ab at atque beatae, culpa cupiditate delectus dicta dolores ea fuga fugit, incidunt ipsa libero minima molestiae, mollitia neque nisi obcaecati optio quasi quod similique voluptas voluptates.</span><span>A asperiores, delectus eum fugiat in omnis! Iusto molestias quaerat sapiente tempore, ut veniam? A aliquid architecto aspernatur, commodi distinctio eligendi excepturi ipsam itaque nesciunt pariatur quo reiciendis temporibus vel!</span><span>Adipisci, atque autem deserunt dicta dignissimos dolores doloribus eius explicabo harum, hic ipsum libero maxime nisi numquam, perspiciatis quod ratione rem repellat saepe sapiente sunt vero vitae. Deleniti, porro voluptas.</span><span>Fugiat, ipsum velit! Asperiores autem, blanditiis cum cupiditate distinctio eligendi eos explicabo hic ipsa ipsum laudantium molestiae mollitia officia officiis perspiciatis placeat quae quidem quos reiciendis rem sed vero voluptate!</span><span>Amet animi assumenda autem consequuntur deleniti dicta distinctio dolorum expedita facere, illum itaque laudantium minima molestias mollitia natus obcaecati quia, quidem rem reprehenderit sed sint sit tenetur ullam veniam voluptas.</span></p>
-        <div class="card" style="width: 18rem;">
-          <img src="https://placehold.co/450x300" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
+
+{% extends 'layout.html' %}
+{% block content%}
+
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Resume App</h1>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, atque commodi dicta est, expedita fugiat laudantium minus molestias mollitia nobis omnis porro quibusdam repudiandae saepe sed soluta sunt. Ullam, veniam.</span><span>Asperiores consequuntur cupiditate ea eos est facere odit perferendis quaerat rerum tenetur. A accusamus architecto delectus, ea earum et fuga inventore modi perspiciatis provident quibusdam, repellat sapiente soluta tenetur unde.</span><span>Fuga, magnam, repellendus. Aspernatur corporis cupiditate delectus deserunt doloremque, earum esse, excepturi exercitationem magni nulla optio placeat quae sit ut veritatis. Consectetur doloremque ducimus expedita ipsa itaque iusto quos totam!</span><span>Cum cumque deserunt hic incidunt laboriosam libero quisquam recusandae tempora. Dolores eum exercitationem facere ipsum obcaecati provident quam quasi sequi similique ut! Deserunt dolorem facilis magnam maiores neque similique veniam!</span><span>A consequatur labore molestiae omnis quaerat repellat vero! A architecto doloribus eos, explicabo fuga, harum iure iusto nesciunt nisi officia praesentium quidem repellat rerum sed sit ullam vel. Corporis, molestiae.</span><span>Aliquid, autem, itaque. Ab at atque beatae, culpa cupiditate delectus dicta dolores ea fuga fugit, incidunt ipsa libero minima molestiae, mollitia neque nisi obcaecati optio quasi quod similique voluptas voluptates.</span><span>A asperiores, delectus eum fugiat in omnis! Iusto molestias quaerat sapiente tempore, ut veniam? A aliquid architecto aspernatur, commodi distinctio eligendi excepturi ipsam itaque nesciunt pariatur quo reiciendis temporibus vel!</span><span>Adipisci, atque autem deserunt dicta dignissimos dolores doloribus eius explicabo harum, hic ipsum libero maxime nisi numquam, perspiciatis quod ratione rem repellat saepe sapiente sunt vero vitae. Deleniti, porro voluptas.</span><span>Fugiat, ipsum velit! Asperiores autem, blanditiis cum cupiditate distinctio eligendi eos explicabo hic ipsa ipsum laudantium molestiae mollitia officia officiis perspiciatis placeat quae quidem quos reiciendis rem sed vero voluptate!</span><span>Amet animi assumenda autem consequuntur deleniti dicta distinctio dolorum expedita facere, illum itaque laudantium minima molestias mollitia natus obcaecati quia, quidem rem reprehenderit sed sint sit tenetur ullam veniam voluptas.</span></p>
+    <div class="card" style="width: 18rem;">
+      <img src="https://placehold.co/450x300" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
 
-</body>
-</html>
+
+{% endblock %}
+
+{% block extra_scripts %}
+<script>console.log("Hello world");</script>
+{% endblock %}
+
+
